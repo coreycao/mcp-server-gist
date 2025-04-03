@@ -1,6 +1,6 @@
 # mcp-server-gist
 
-A simple Model Context Protocol(MCP) Server than wrap github [create gist](https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28#create-a-gist) api as a MCP tool.
+A Model Context Protocol(MCP) Server that wrap github [create gist](https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28#create-a-gist) api as a MCP tool.
 
 ## Tools
 
