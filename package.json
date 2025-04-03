@@ -2,6 +2,7 @@
   "name": "mcp-server-gist",
   "version": "1.0.0",
   "type": "module",
+  "description": "A Model Context Protocol(MCP) Server that wraps GitHub Create-Gist API as a MCP tool",
   "bin": {
     "mcp-server-gist": "./build/index.js"
   },
@@ -11,12 +12,27 @@
     "inspector": "npx @modelcontextprotocol/inspector build/index.js"
   },
   "files": [
-    "build"
+    "build",
+    "README.md"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "A MCP server that creates gists for your github account",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "github",
+    "gist",
+    "api"
+  ],
+  "author": {
+    "name": "Yeung"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corey/mcp-server-gist.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.8.0",
     "@octokit/core": "^6.1.4",
