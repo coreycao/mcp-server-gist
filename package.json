@@ -1,12 +1,14 @@
 {
-  "name": "mcp-gist",
+  "name": "mcp-server-gist",
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "mcp-gist": "./build/index.js"
+    "mcp-server-gist": "./build/index.js"
   },
   "scripts": {
-    "build": "tsc && chmod 755 build/index.js"
+    "build": "tsc && chmod 755 build/index.js",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
   },
   "files": [
     "build"
@@ -14,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A MCP server that creates gists for your github account",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.8.0",
     "@octokit/core": "^6.1.4",
