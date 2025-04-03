@@ -1,8 +1,8 @@
 {
   "name": "mcp-server-gist",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "module",
-  "description": "A Model Context Protocol(MCP) Server that wraps GitHub Create-Gist API as a MCP tool",
+  "description": "create-gist by using MCP-server",
   "bin": {
     "mcp-server-gist": "./build/index.js"
   },
@@ -12,15 +12,14 @@
     "inspector": "npx @modelcontextprotocol/inspector build/index.js"
   },
   "files": [
-    "build",
-    "README.md"
+    "build"
   ],
   "keywords": [
     "mcp",
     "model-context-protocol",
     "github",
     "gist",
-    "api"
+    "create gist"
   ],
   "author": {
     "name": "Yeung"
